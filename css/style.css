@@ -1,0 +1,144 @@
+
+* {
+    border:1px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    padding: auto;
+}
+html, body {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 10px;
+    margin-top: 0;
+    margin: 20px;
+    display: block;
+    gap: auto;
+}
+header, footer {
+    display: block;
+    height: auto;
+    margin: auto;
+    align-content: center;
+}
+
+/*header*/
+.header-logo {
+    display: inline-block;
+    height: 50px;
+    width: 300px;
+}
+
+.header-links {
+    display: inline-flex;
+    float: inline-end;
+    gap: 10px;
+    align-self: center;
+    margin-top: 17px;
+    margin-right: 70px;
+
+}
+
+.header-links a:hover {
+    transform: scale(200%);
+    
+
+}
+
+/*left container*/
+.l-side, .r-side {
+    display: inline-block;
+    width: 49%;
+    margin: 0;
+    border: none;
+    padding: 0;
+    align-content: center;
+}
+.l-side {
+    float: inline-start;
+}
+.logo{
+    height: 250px;
+    width: 250px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    align-self: center;
+}
+.l-side > h1 {
+    display: block;
+    text-align: center;
+    max-width: fit-content;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    position: relative;
+    animation: fade 1s ease-in 1s ;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    font-size: 70px;
+}
+.spacer {
+    margin: 0;
+    width: auto;
+    height: 230px;
+}
+.l-side > p {
+    display: block;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+/*left container*/
+.r-images {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    align-self: center;
+    width: fit-content;
+
+    float: right;
+}
+.r-images > img {
+    width: 200px; 
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+.r-images img:hover {
+    transform: scale(150%);
+    transition: 0.75s;
+
+}
+
+/*footer*/
+.footer {
+    display: block;
+    text-align: center;
+    
+}
+.footer > p {
+    font-size: 18px;
+}
+
+/*keyframs*/
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
