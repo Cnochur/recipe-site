@@ -1,34 +1,37 @@
 
 * {
-    border:1px;
-    border-color: black;
-    border-style: solid;
     margin: 5px;
     padding: auto;
-
     font-size: 20px;
 }
+
 html, body {
     border: none;
     margin: 0;
     padding: 0;
+    background-color: #0f3054;
 }
 body {
-    padding: 10px;
+    padding: 20px;
     margin-top: 0;
-    margin: 20px;
+    margin: 5px;
     display: block;
     gap: auto;
+    background-color: #d7daf7;
 }
 header, footer {
-    display: block;
+    display: flex;
     height: auto;
-    margin: auto;
+    margin: 0;
     align-content: center;
 }
 footer {
+    display: block;
     margin-top: 20px;
+    align-items: baseline;
+    justify-content: center;
 }
+
 /*
 ----------------index page--------------------
 */
@@ -36,24 +39,21 @@ footer {
 /*header*/
 .header-logo {
     display: inline-block;
-    height: 50px;
-    width: 300px;
+    height: 150px;
+    width: auto;
+
+    border: none;
 }
 
 .header-links {
     display: inline-flex;
-    float: inline-end;
-    gap: 10px;
-    align-self: center;
-    margin-top: 17px;
-    margin-right: 70px;
+
+    color: #001f3f;
 
 }
 
 .header-links a:hover {
     transform: scale(200%);
-    
-
 }
 
 /*left container*/
@@ -79,8 +79,8 @@ footer {
 }
 .l-side > h1 {
     display: block;
-    text-align: center;
-    max-width: fit-content;
+    font-family: inherit;
+    width: auto;
     margin-top: 10px;
     margin-right: auto;
     margin-bottom: 10px;
@@ -104,7 +104,17 @@ footer {
     font-size: 20px;
 }
 
-/*left container*/
+/*right container*/
+.r-side {
+    display: flex;
+
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+
+}
 .r-images {
     display: grid;
     grid-template-columns: auto auto;
