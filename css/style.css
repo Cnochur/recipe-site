@@ -5,6 +5,8 @@
     border-style: solid;
     margin: 5px;
     padding: auto;
+
+    font-size: 20px;
 }
 html, body {
     border: none;
@@ -24,6 +26,12 @@ header, footer {
     margin: auto;
     align-content: center;
 }
+footer {
+    margin-top: 20px;
+}
+/*
+----------------index page--------------------
+*/
 
 /*header*/
 .header-logo {
@@ -133,7 +141,7 @@ header, footer {
     font-size: 18px;
 }
 
-/*keyframs*/
+/*inde-keyframes*/
 @keyframes fade {
     0% {
         opacity: 0;
@@ -141,4 +149,64 @@ header, footer {
     100% {
         opacity: 1;
     }
+}
+
+/*-----------------------page template-------------------------------*/
+/*
+---------------NOTICE--------------------
+Styles for header are above
+*/
+
+.description {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+}
+.description-image {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+}
+.description-text {
+    display: inline-block;
+}
+.description-text > h2 {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 5px;
+}
+.description-text > p {
+    text-align: justify;
+    padding-left: 5px;
+}
+.ingredients {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.ingredients > h2 {
+    margin-top: 20px;
+}
+.ingredients-list {
+    display: block;
+    list-style-type: none;
+    padding: 0;
+}
+.ingredients-list > li {
+    text-align: center;
+    gap: 10px;
+}
+.method {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.method-list > li {
+    text-align: left;
+    gap: 10px;
+    padding: 10px;
 }
