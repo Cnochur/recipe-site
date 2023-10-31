@@ -57,7 +57,9 @@ footer {
     align-self: center;
     margin-left: 27%;
     gap: 5px;
-
+}
+.header-links > a {
+    text-decoration: none;
 }
 
 .header-links a:hover {
@@ -105,11 +107,7 @@ footer {
     font-size: 70px;
     color: #0f3054;
 }
-.spacer {
-    margin: 0;
-    width: auto;
-    height: 230px;
-}
+
 .l-side > p {
     display: block;
     text-align: justify;
@@ -186,9 +184,11 @@ Styles for header are above
     display: inline-block;
     height: 100px;
     width: 100px;
+    
 }
 .description-text {
     display: inline-block;
+    color: #001f3f;
 }
 .description-text > h2 {
     font-size: 30px;
@@ -198,6 +198,7 @@ Styles for header are above
 .description-text > p {
     text-align: justify;
     padding-left: 5px;
+    color: #0f3054;
 }
 .ingredients {
     display: block;
@@ -207,6 +208,8 @@ Styles for header are above
 }
 .ingredients > h2 {
     margin-top: 20px;
+    color: #001f3f;
+
 }
 .ingredients-list {
     display: block;
@@ -216,15 +219,18 @@ Styles for header are above
 .ingredients-list > li {
     text-align: center;
     gap: 10px;
+    color: #0f3054;
 }
 .method {
     display: block;
     text-align: center;
     justify-content: center;
     margin-top: 20px;
+    color: #001f3f;
 }
 .method-list > li {
     text-align: left;
     gap: 10px;
     padding: 10px;
+    color: #0f3054;
 }
