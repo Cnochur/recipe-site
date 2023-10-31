@@ -35,3 +35,25 @@ The next steps:
 I will maybe do more work later on today or tomorrow.
 
 (14:51 pm 28/10/2023)
+-----------------------------------------------------------------------------
+
+Update 2...
+-----------------------------------------------------------------------------
+
+Between yesterday (30/10/23) and today i have completed the final draft of the 
+index page. I have incorperated a logo, which i designed, and a color 
+board for the site. I have also created a template for the recipe pages
+The previous tasks have been completed and the next few tasks are as follows:
+
+- Complete the design of the recipe template.
+- Get each recipe page complete.
+    - Images
+    - ingredients
+    - methods
+    - descriptions
+- Link the pages together.
+
+I alspo need to link the font to the pages as i have not yet done this.
+
+
+(31/10/2023 10:51 am)
