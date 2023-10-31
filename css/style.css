@@ -182,8 +182,9 @@ Styles for header are above
 }
 .description-image {
     display: inline-block;
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
     
 }
 .description-text {
@@ -214,19 +215,23 @@ Styles for header are above
 .ingredients-list {
     display: block;
     list-style-type: none;
-    padding: 0;
+    padding-left: 35%;
+    margin-top: 20px;
 }
 .ingredients-list > li {
-    text-align: center;
+    text-align: left;
     gap: 10px;
     color: #0f3054;
 }
 .method {
     display: block;
-    text-align: center;
-    justify-content: center;
-    margin-top: 20px;
+    text-align: left;
+    margin-top: 30px;
+    padding-left: 30px;
     color: #001f3f;
+}
+.method-list {
+    margin-top: 20px;
 }
 .method-list > li {
     text-align: left;
