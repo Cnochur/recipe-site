@@ -53,7 +53,18 @@ The previous tasks have been completed and the next few tasks are as follows:
     - descriptions
 - Link the pages together.
 
-I alspo need to link the font to the pages as i have not yet done this.
+I also need to link the font to the pages as i have not yet done this.
 
 
 (31/10/2023 10:51 am)
+
+Update 3...
+-----------------------------------------------------------------------------
+I have completed the site to the best of my ability as of now. 
+
+I am happy overall with the progress that i have made so far. After a few 
+down days i am now back on track and ready to get stuck in to The Odin
+project again. 
+
+Thanks,
+C
